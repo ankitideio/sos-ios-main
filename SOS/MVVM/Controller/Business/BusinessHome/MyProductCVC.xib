@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rufina-Bold.ttf">
+            <string>Rufina-Bold</string>
+        </array>
+        <array key="Rufina-Regular.ttf">
+            <string>Rufina-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MyProductCVC" id="gTV-IL-0wX" customClass="MyProductCVC" customModule="SOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="169" height="247"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="169" height="247"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1fU-gl-6lA">
+                        <rect key="frame" x="0.0" y="0.0" width="169" height="247"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="394-3948439_abi-beauty-salon-distributor-hair-products-distributors-parlour 2" translatesAutoresizingMaskIntoConstraints="NO" id="08E-wf-R2p">
+                                <rect key="frame" x="42" y="25" width="85" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="CRe-CI-HdK"/>
+                                    <constraint firstAttribute="width" constant="85" id="S96-tf-c3j"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0al-8u-Ady">
+                                <rect key="frame" x="10" y="105" width="149" height="11.333333333333329"/>
+                                <fontDescription key="fontDescription" name="Rufina-Regular" family="Rufina" pointSize="9"/>
+                                <color key="textColor" name="GrayTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cwf-GX-YGT">
+                                <rect key="frame" x="10" y="121.33333333333333" width="149" height="18.666666666666671"/>
+                                <fontDescription key="fontDescription" name="Rufina-Bold" family="Rufina" pointSize="15"/>
+                                <color key="textColor" name="textBlackColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$250" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4zc-rM-ZZo">
+                                <rect key="frame" x="10" y="145" width="149" height="21"/>
+                                <fontDescription key="fontDescription" name="Rufina-Bold" family="Rufina" pointSize="17"/>
+                                <color key="textColor" name="AppYellowColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="mJC-JO-C7K">
+                                <rect key="frame" x="10" y="176" width="149" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CkH-MR-ypx">
+                                        <rect key="frame" x="0.0" y="0.0" width="114" height="30"/>
+                                        <color key="backgroundColor" name="AppYellowColor"/>
+                                        <fontDescription key="fontDescription" name="Rufina-Regular" family="Rufina" pointSize="8"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="25" maxY="0.0"/>
+                                        <state key="normal" title="Edit" image="addToCart">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PkF-xV-h7o">
+                                        <rect key="frame" x="119" y="0.0" width="30" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgK-H9-eYZ">
+                                                <rect key="frame" x="21" y="0.0" width="9" height="30"/>
+                                                <inset key="imageEdgeInsets" minX="14" minY="10" maxX="14" maxY="10"/>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="delete" translatesAutoresizingMaskIntoConstraints="NO" id="El9-mE-LbC">
+                                                <rect key="frame" x="9" y="6" width="12" height="18"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="18" id="FPi-ZM-wem"/>
+                                                    <constraint firstAttribute="width" constant="12" id="Ran-qR-OO3"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="wgK-H9-eYZ" firstAttribute="top" secondItem="PkF-xV-h7o" secondAttribute="top" id="Ex6-OR-uAC"/>
+                                            <constraint firstAttribute="trailing" secondItem="wgK-H9-eYZ" secondAttribute="trailing" id="FZy-32-YX1"/>
+                                            <constraint firstItem="El9-mE-LbC" firstAttribute="centerY" secondItem="PkF-xV-h7o" secondAttribute="centerY" id="Wac-Om-G4B"/>
+                                            <constraint firstAttribute="width" constant="30" id="Yqq-Gk-yFA"/>
+                                            <constraint firstAttribute="bottom" secondItem="wgK-H9-eYZ" secondAttribute="bottom" id="bKT-f6-W1e"/>
+                                            <constraint firstItem="El9-mE-LbC" firstAttribute="centerX" secondItem="PkF-xV-h7o" secondAttribute="centerX" id="bu3-MP-zxd"/>
+                                            <constraint firstItem="wgK-H9-eYZ" firstAttribute="leading" secondItem="El9-mE-LbC" secondAttribute="trailing" id="xUs-tg-5z9"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="1BB-wW-ptr"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-10%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e05-sP-ECi">
+                                <rect key="frame" x="125" y="9" width="36" height="16"/>
+                                <color key="backgroundColor" name="AppYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="36" id="uTn-IC-J59"/>
+                                    <constraint firstAttribute="height" constant="16" id="yAf-mg-Btn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rufina-Regular" family="Rufina" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="mJC-JO-C7K" secondAttribute="trailing" constant="10" id="104-U4-Zr1"/>
+                            <constraint firstItem="e05-sP-ECi" firstAttribute="top" secondItem="1fU-gl-6lA" secondAttribute="top" constant="9" id="2vI-8u-WO2"/>
+                            <constraint firstItem="4zc-rM-ZZo" firstAttribute="leading" secondItem="1fU-gl-6lA" secondAttribute="leading" constant="10" id="CLX-YI-dVg"/>
+                            <constraint firstItem="0al-8u-Ady" firstAttribute="top" secondItem="08E-wf-R2p" secondAttribute="bottom" constant="5" id="Ehu-nD-AdJ"/>
+                            <constraint firstAttribute="trailing" secondItem="e05-sP-ECi" secondAttribute="trailing" constant="8" id="GI0-f7-M2D"/>
+                            <constraint firstItem="08E-wf-R2p" firstAttribute="top" secondItem="1fU-gl-6lA" secondAttribute="top" constant="25" id="H0P-nS-G8S"/>
+                            <constraint firstAttribute="trailing" secondItem="4zc-rM-ZZo" secondAttribute="trailing" constant="10" id="P6W-rb-fC2"/>
+                            <constraint firstItem="08E-wf-R2p" firstAttribute="centerX" secondItem="1fU-gl-6lA" secondAttribute="centerX" id="PWu-r4-c71"/>
+                            <constraint firstItem="mJC-JO-C7K" firstAttribute="top" secondItem="4zc-rM-ZZo" secondAttribute="bottom" constant="10" id="PaA-55-VQp"/>
+                            <constraint firstAttribute="trailing" secondItem="Cwf-GX-YGT" secondAttribute="trailing" constant="10" id="Qhk-Sq-S7G"/>
+                            <constraint firstItem="Cwf-GX-YGT" firstAttribute="leading" secondItem="1fU-gl-6lA" secondAttribute="leading" constant="10" id="Ucw-8B-GrX"/>
+                            <constraint firstItem="mJC-JO-C7K" firstAttribute="leading" secondItem="1fU-gl-6lA" secondAttribute="leading" constant="10" id="dLb-rY-jY2"/>
+                            <constraint firstAttribute="trailing" secondItem="0al-8u-Ady" secondAttribute="trailing" constant="10" id="der-eU-gZ1"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="mJC-JO-C7K" secondAttribute="bottom" constant="10" id="kNU-RI-WcK"/>
+                            <constraint firstItem="4zc-rM-ZZo" firstAttribute="top" secondItem="Cwf-GX-YGT" secondAttribute="bottom" constant="5" id="vFR-jp-cYD"/>
+                            <constraint firstItem="0al-8u-Ady" firstAttribute="leading" secondItem="1fU-gl-6lA" secondAttribute="leading" constant="10" id="vrx-r5-SKb"/>
+                            <constraint firstItem="Cwf-GX-YGT" firstAttribute="top" secondItem="0al-8u-Ady" secondAttribute="bottom" constant="5" id="zVY-qP-b1g"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.89411764705882346" green="0.89411764705882346" blue="0.89411764705882346" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="1fU-gl-6lA" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Mvd-sq-BNd"/>
+                <constraint firstItem="1fU-gl-6lA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="SVY-xP-qk4"/>
+                <constraint firstAttribute="bottom" secondItem="1fU-gl-6lA" secondAttribute="bottom" id="iMs-rp-4j8"/>
+                <constraint firstAttribute="trailing" secondItem="1fU-gl-6lA" secondAttribute="trailing" id="x39-vQ-ajR"/>
+            </constraints>
+            <size key="customSize" width="169" height="247"/>
+            <connections>
+                <outlet property="btnDelete" destination="wgK-H9-eYZ" id="NoR-Ui-rV8"/>
+                <outlet property="btnEdit" destination="CkH-MR-ypx" id="Biy-H5-vwj"/>
+                <outlet property="imgVwBtn" destination="El9-mE-LbC" id="Q3V-Tf-aJi"/>
+                <outlet property="imgVwProduct" destination="08E-wf-R2p" id="5vy-b8-4Bm"/>
+                <outlet property="lblDecription" destination="0al-8u-Ady" id="Y8A-OI-LGR"/>
+                <outlet property="lblDiscount" destination="e05-sP-ECi" id="4qZ-u8-DIL"/>
+                <outlet property="lblPrice" destination="4zc-rM-ZZo" id="mkC-a1-vd6"/>
+                <outlet property="lblProductName" destination="Cwf-GX-YGT" id="LTb-tp-pUe"/>
+            </connections>
+            <point key="canvasLocation" x="144.27480916030532" y="-69.366197183098592"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="394-3948439_abi-beauty-salon-distributor-hair-products-distributors-parlour 2" width="25.666666030883789" height="27.666666030883789"/>
+        <image name="addToCart" width="14.333333015441895" height="13.666666984558105"/>
+        <image name="delete" width="15" height="19"/>
+        <namedColor name="AppYellowColor">
+            <color red="0.92900002002716064" green="0.67500001192092896" blue="0.24300000071525574" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GrayTextColor">
+            <color red="0.46299999952316284" green="0.46299999952316284" blue="0.46299999952316284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textBlackColor">
+            <color red="0.18000000715255737" green="0.18000000715255737" blue="0.18000000715255737" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

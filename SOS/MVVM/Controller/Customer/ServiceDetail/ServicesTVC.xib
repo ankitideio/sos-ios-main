@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rufina-Bold.ttf">
+            <string>Rufina-Bold</string>
+        </array>
+        <array key="Rufina-Regular.ttf">
+            <string>Rufina-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ServicesTVC" rowHeight="209" id="KGk-i7-Jjw" customClass="ServicesTVC" customModule="SOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="419" height="209"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="419" height="209"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ef-FR-mhM">
+                        <rect key="frame" x="0.0" y="0.0" width="419" height="209"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cTt-yv-Sku">
+                                <rect key="frame" x="20" y="0.0" width="379" height="189"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Client Luxury Haircolor Consult" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfK-Mu-Rz9">
+                                        <rect key="frame" x="25" y="25" width="334" height="16.333333333333329"/>
+                                        <fontDescription key="fontDescription" name="Rufina-Bold" family="Rufina" pointSize="13"/>
+                                        <color key="textColor" name="textBlackColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="9Qk-0z-vRn">
+                                        <rect key="frame" x="25" y="125.66666666666669" width="334" height="35"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wqi-1i-rTD">
+                                                <rect key="frame" x="0.0" y="0.0" width="159.66666666666666" height="35"/>
+                                                <fontDescription key="fontDescription" name="Rufina-Regular" family="Rufina" pointSize="12"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="More Info">
+                                                    <color key="titleColor" name="AppYellowColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWid">
+                                                        <real key="value" value="0.81000000000000005"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderCol">
+                                                        <color key="value" name="AppYellowColor"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrT-3N-gUe">
+                                                <rect key="frame" x="174.66666666666663" y="0.0" width="159.33333333333337" height="35"/>
+                                                <color key="backgroundColor" name="AppYellowColor"/>
+                                                <fontDescription key="fontDescription" name="Rufina-Regular" family="Rufina" pointSize="12"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="See Times"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWid">
+                                                        <real key="value" value="0.94999999999999996"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderCol">
+                                                        <color key="value" name="AppYellowColor"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="XGt-Nr-y2q"/>
+                                        </constraints>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$35 for 30 minutes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amg-KE-2OB">
+                                        <rect key="frame" x="25" y="46.333333333333336" width="334" height="16.333333333333336"/>
+                                        <fontDescription key="fontDescription" name="Rufina-Bold" family="Rufina" pointSize="13"/>
+                                        <color key="textColor" name="AppYellowColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New client inquiries are Mandatory for all new clients. Out-of-state clients may..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EGR-p0-VzX">
+                                        <rect key="frame" x="25" y="72.666666666666671" width="334" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="s5G-PN-bz6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Rufina-Regular" family="Rufina" pointSize="11"/>
+                                        <color key="textColor" name="textBlackColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="amg-KE-2OB" firstAttribute="trailing" secondItem="mfK-Mu-Rz9" secondAttribute="trailing" id="1l8-Pu-x8v"/>
+                                    <constraint firstAttribute="trailing" secondItem="mfK-Mu-Rz9" secondAttribute="trailing" constant="20" id="5B9-xn-NIJ"/>
+                                    <constraint firstItem="mfK-Mu-Rz9" firstAttribute="top" secondItem="cTt-yv-Sku" secondAttribute="top" constant="25" id="7AT-0h-Jj3"/>
+                                    <constraint firstItem="mfK-Mu-Rz9" firstAttribute="leading" secondItem="cTt-yv-Sku" secondAttribute="leading" constant="25" id="8EW-Cs-79n"/>
+                                    <constraint firstItem="9Qk-0z-vRn" firstAttribute="leading" secondItem="EGR-p0-VzX" secondAttribute="leading" id="AMR-6y-829"/>
+                                    <constraint firstItem="amg-KE-2OB" firstAttribute="top" secondItem="mfK-Mu-Rz9" secondAttribute="bottom" constant="5" id="JDa-oS-1YZ"/>
+                                    <constraint firstItem="EGR-p0-VzX" firstAttribute="trailing" secondItem="amg-KE-2OB" secondAttribute="trailing" id="LYn-p2-I2a"/>
+                                    <constraint firstItem="EGR-p0-VzX" firstAttribute="leading" secondItem="amg-KE-2OB" secondAttribute="leading" id="UZU-1y-fj0"/>
+                                    <constraint firstItem="9Qk-0z-vRn" firstAttribute="trailing" secondItem="EGR-p0-VzX" secondAttribute="trailing" id="cix-FA-jor"/>
+                                    <constraint firstItem="EGR-p0-VzX" firstAttribute="top" secondItem="amg-KE-2OB" secondAttribute="bottom" constant="10" id="fIf-Pe-qVp"/>
+                                    <constraint firstItem="9Qk-0z-vRn" firstAttribute="top" secondItem="EGR-p0-VzX" secondAttribute="bottom" constant="23" id="m22-Cj-fa8"/>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="9Qk-0z-vRn" secondAttribute="bottom" constant="15" id="qqJ-5m-Njh"/>
+                                    <constraint firstItem="amg-KE-2OB" firstAttribute="leading" secondItem="mfK-Mu-Rz9" secondAttribute="leading" id="qxS-RB-1y7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" name="bgColor"/>
+                        <constraints>
+                            <constraint firstItem="cTt-yv-Sku" firstAttribute="leading" secondItem="9ef-FR-mhM" secondAttribute="leading" constant="20" id="1BZ-Vd-Dzf"/>
+                            <constraint firstAttribute="trailing" secondItem="cTt-yv-Sku" secondAttribute="trailing" constant="20" id="XO2-9U-chr"/>
+                            <constraint firstAttribute="bottom" secondItem="cTt-yv-Sku" secondAttribute="bottom" constant="20" id="ly5-TJ-AHw"/>
+                            <constraint firstItem="cTt-yv-Sku" firstAttribute="top" secondItem="9ef-FR-mhM" secondAttribute="top" id="wCx-ea-aD9"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="9ef-FR-mhM" secondAttribute="trailing" id="Iu7-aa-ajV"/>
+                    <constraint firstItem="9ef-FR-mhM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Ub5-bE-gsi"/>
+                    <constraint firstItem="9ef-FR-mhM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="WYg-ZR-l5r"/>
+                    <constraint firstAttribute="bottom" secondItem="9ef-FR-mhM" secondAttribute="bottom" id="Yhm-MD-SHo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnMoreInfo" destination="wqi-1i-rTD" id="xqv-TU-VGv"/>
+                <outlet property="btnSeeTimes" destination="hrT-3N-gUe" id="geZ-YE-3fY"/>
+            </connections>
+            <point key="canvasLocation" x="243.84615384615384" y="33.056872037914694"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="AppYellowColor">
+            <color red="0.92900002002716064" green="0.67500001192092896" blue="0.24300000071525574" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="bgColor">
+            <color red="0.96899998188018799" green="0.96899998188018799" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textBlackColor">
+            <color red="0.18000000715255737" green="0.18000000715255737" blue="0.18000000715255737" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

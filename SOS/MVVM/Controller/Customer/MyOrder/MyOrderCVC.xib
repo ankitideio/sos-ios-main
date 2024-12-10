@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rufina-Bold.ttf">
+            <string>Rufina-Bold</string>
+        </array>
+        <array key="Rufina-Regular.ttf">
+            <string>Rufina-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MyOrderCVC" id="gTV-IL-0wX" customClass="MyOrderCVC" customModule="SOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="184" height="223"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="184" height="223"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tog-m9-YuT">
+                        <rect key="frame" x="0.0" y="0.0" width="184" height="223"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="394-3948439_abi-beauty-salon-distributor-hair-products-distributors-parlour 2" translatesAutoresizingMaskIntoConstraints="NO" id="2Sj-Gc-TWC">
+                                <rect key="frame" x="52" y="20" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="FPp-CY-ZNY"/>
+                                    <constraint firstAttribute="width" constant="80" id="duU-G0-CFB"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVy-lr-8l2">
+                                <rect key="frame" x="10" y="105" width="164" height="11.666666666666671"/>
+                                <fontDescription key="fontDescription" name="Rufina-Regular" family="Rufina" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1KO-my-Qiq">
+                                <rect key="frame" x="10" y="121.66666666666667" width="164" height="16.333333333333329"/>
+                                <fontDescription key="fontDescription" name="Rufina-Bold" family="Rufina" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$250" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DpY-bz-uLu">
+                                <rect key="frame" x="10" y="143" width="164" height="18.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Rufina-Bold" family="Rufina" pointSize="15"/>
+                                <color key="textColor" name="AppYellowColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lSu-CG-NSq">
+                                <rect key="frame" x="10" y="171.66666666666666" width="134" height="41.333333333333343"/>
+                                <color key="backgroundColor" name="AppYellowColor"/>
+                                <fontDescription key="fontDescription" name="Rufina-Regular" family="Rufina" pointSize="12"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Track Order">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2Sj-Gc-TWC" firstAttribute="top" secondItem="tog-m9-YuT" secondAttribute="top" constant="20" id="2Gb-yd-e3l"/>
+                            <constraint firstAttribute="trailing" secondItem="AVy-lr-8l2" secondAttribute="trailing" constant="10" id="5Do-dA-wGO"/>
+                            <constraint firstItem="lSu-CG-NSq" firstAttribute="top" secondItem="DpY-bz-uLu" secondAttribute="bottom" constant="10" id="5wF-X4-qLb"/>
+                            <constraint firstItem="1KO-my-Qiq" firstAttribute="top" secondItem="AVy-lr-8l2" secondAttribute="bottom" constant="5" id="N1U-iY-G7D"/>
+                            <constraint firstItem="1KO-my-Qiq" firstAttribute="leading" secondItem="tog-m9-YuT" secondAttribute="leading" constant="10" id="WPq-A3-vS1"/>
+                            <constraint firstItem="AVy-lr-8l2" firstAttribute="top" secondItem="2Sj-Gc-TWC" secondAttribute="bottom" constant="5" id="YzJ-g5-I68"/>
+                            <constraint firstItem="DpY-bz-uLu" firstAttribute="leading" secondItem="tog-m9-YuT" secondAttribute="leading" constant="10" id="Zcx-0B-duQ"/>
+                            <constraint firstAttribute="trailing" secondItem="lSu-CG-NSq" secondAttribute="trailing" constant="40" id="aC7-73-Wap"/>
+                            <constraint firstItem="AVy-lr-8l2" firstAttribute="leading" secondItem="tog-m9-YuT" secondAttribute="leading" constant="10" id="bvn-nl-K59"/>
+                            <constraint firstItem="DpY-bz-uLu" firstAttribute="top" secondItem="1KO-my-Qiq" secondAttribute="bottom" constant="5" id="jw0-hp-XWw"/>
+                            <constraint firstAttribute="bottom" secondItem="lSu-CG-NSq" secondAttribute="bottom" constant="10" id="lek-YZ-ZuL"/>
+                            <constraint firstAttribute="trailing" secondItem="DpY-bz-uLu" secondAttribute="trailing" constant="10" id="mRN-kV-WYI"/>
+                            <constraint firstItem="2Sj-Gc-TWC" firstAttribute="centerX" secondItem="tog-m9-YuT" secondAttribute="centerX" id="tWr-5B-n2d"/>
+                            <constraint firstAttribute="trailing" secondItem="1KO-my-Qiq" secondAttribute="trailing" constant="10" id="xbY-NJ-2e4"/>
+                            <constraint firstItem="lSu-CG-NSq" firstAttribute="leading" secondItem="tog-m9-YuT" secondAttribute="leading" constant="10" id="yiS-W2-zak"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.89411764705882346" green="0.89411764705882346" blue="0.89411764705882346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="tog-m9-YuT" secondAttribute="bottom" id="Icb-qb-dy4"/>
+                <constraint firstItem="tog-m9-YuT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="JDG-oT-fbn"/>
+                <constraint firstAttribute="trailing" secondItem="tog-m9-YuT" secondAttribute="trailing" id="KKC-IW-N1V"/>
+                <constraint firstItem="tog-m9-YuT" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="h2a-ru-9dL"/>
+            </constraints>
+            <size key="customSize" width="184" height="223"/>
+            <connections>
+                <outlet property="btnTrackOrder" destination="lSu-CG-NSq" id="34d-aq-pVM"/>
+                <outlet property="imgVwProduct" destination="2Sj-Gc-TWC" id="ODX-Em-zE8"/>
+                <outlet property="lblPrice" destination="DpY-bz-uLu" id="lIB-cy-2VL"/>
+                <outlet property="lblProductName" destination="1KO-my-Qiq" id="tg5-X2-fhn"/>
+                <outlet property="lblProductTitle" destination="AVy-lr-8l2" id="lZs-Om-4Si"/>
+                <outlet property="tralingTrackBtn" destination="aC7-73-Wap" id="1m2-aP-Paw"/>
+            </connections>
+            <point key="canvasLocation" x="60" y="60.071090047393362"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="394-3948439_abi-beauty-salon-distributor-hair-products-distributors-parlour 2" width="25.666666030883789" height="27.666666030883789"/>
+        <namedColor name="AppYellowColor">
+            <color red="0.92900002002716064" green="0.67500001192092896" blue="0.24300000071525574" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
